@@ -85,3 +85,8 @@
   font-size: 0.8rem;
   opacity: 0.8;
 }
+.email-link, .phone-link{
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
