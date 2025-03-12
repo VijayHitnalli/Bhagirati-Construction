@@ -13,7 +13,7 @@ const Footer = () => {
             <a href="tel:+918317394414" className="phone-link">+91 8317394414</a></p>
             
           <p>📧 Email: 
-            <a href="mailto:info@bhagiraticonstruction.com" className=" ">info@bhagiraticonstruction.com</a></p>
+            <a href="mailto:info@bhagiraticonstruction.com" className="email-link">info@bhagiraticonstruction.com</a></p>
         </div>
 
         <p className="copyright">
