@@ -5,6 +5,7 @@
 }
 .App{
   text-align: center;
+  font-family: Arial, sans-serif;
 }
 
 
@@ -16,7 +17,8 @@
   align-items: center;
   background-color: #222;
   color: white;
-  padding: 10px 20px;  
+  padding: 15px 20px;  
+  flex-wrap: wrap;
   
 }
 
@@ -36,6 +38,7 @@
   color: white;
   text-decoration: none;
   font-size: 1rem;
+  padding: 5px 10px;
 }
 
 .nav ul li a:hover {
@@ -49,4 +52,6 @@
 }
 .name p{
   margin-left: 156px;
+  font-size: 0.9rem;
+  opacity: 0.8;
 }
