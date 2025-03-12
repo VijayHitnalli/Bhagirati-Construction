@@ -50,3 +50,38 @@
 .name p{
   margin-left: 156px;
 }
+
+
+/* FOOTER CSS */
+.footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.footer-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.company-name {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.tagline {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.contact-info p {
+  margin: 5px 0;
+  font-size: 0.9rem;
+}
+
+.copyright {
+  margin-top: 15px;
+  font-size: 0.8rem;
+  opacity: 0.8;
+}
