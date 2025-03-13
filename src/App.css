@@ -55,80 +55,23 @@
   font-size: 0.9rem;
   opacity: 0.8;
 }
-
-
-/* FOOTER CSS */
-.footer {
-  background-color: #222;
-  color: white;
-  text-align: center;
-  padding: 20px 0;
-}
-
-.footer-content {
-  max-width: 800px;
-  margin: 0 auto;
-}
-
-.company-name {
-  font-size: 1.5rem;
-  font-weight: bold;
-}
-
-.tagline {
-  font-size: 1rem;
-  margin-bottom: 10px;
-  opacity: 0.8;
-}
-
-.contact-info p {
-  margin: 5px 0;
-  font-size: 0.9rem;
-}
-
-.copyright {
-  margin-top: 15px;
-  font-size: 0.8rem;
-  opacity: 0.8;
-}
-.email-link, .phone-link{
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-@media (max-width: 768px){
+@media (max-width:768px){
   .header{
     flex-direction: column;
     text-align: center;
     padding: 15px;
   }
-  .name p{
-    margin-left: 0;
-  }
-
   .nav ul{
-    flex-direction: column;
-    gap: 10px;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
   }
-
-  .nav ul li {
-    display: block;
+  .nav ul li{
+    display: inline-block;
+    margin: 5px 10px;
   }
-
-  .nav ul li a{
-    font-size: 1.2rem;
+  .na ul li a{
+    font-size: 1rem;
+    padding: 5px 8px;
   }
-
-  .footer{
-    padding: 15px;
-  }
-}
-
-/* HOME CSS */
-.main-div-home{
-  height: 470px;
-  width: 100%;
-  font-size: xx-large;
-  font-weight: bolder;
 }
