@@ -142,3 +142,11 @@
   font-size: 0.9rem;
 }
 }
+
+/* HOME CSS */
+.main-div-home{
+  height: 470px;
+  width: 100%;
+  font-size: xx-large;
+  font-weight: bolder;
+}
