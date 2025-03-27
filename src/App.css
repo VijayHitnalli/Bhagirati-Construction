@@ -136,6 +136,7 @@
 }
 
 
+
 /* HEADER CSS */
 .header {
   display: flex;
@@ -238,8 +239,8 @@
 .contact-info p {
   margin: 5px 0;
   font-size: 0.9rem;
-  opacity: 0.8;
 }
+
 .copyright {
   margin-top: 15px;
   font-size: 0.8rem;
@@ -254,7 +255,6 @@
 @media (max-width: 768px){
 .footer{
   padding: 15px;
-<<<<<<< HEAD
 }
 .contact-info{
   flex-direction: column;
@@ -270,29 +270,4 @@
 .tagline{
   font-size: 0.9rem;
 }
-}
-
-/* HOME CSS */
-.main-div-home{
-  height: 470px;
-  width: 100%;
-  font-size: xx-large;
-  font-weight: bolder;
-=======
-}
-.contact-info{
-  flex-direction: column;
-  text-align: center;
-}
-.contact-info p{
-  font-size: 1rem;
-
-}
-.company-name{
-  font-size: 1.3rem;
-}
-.tagline{
-  font-size: 0.9rem;
-}
->>>>>>> home
 }
